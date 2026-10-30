@@ -1,0 +1,34 @@
+# Environment variables
+.env
+.env.*
+
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# RAG database
+chroma_db/
+*.sqlite3
+
+# Temporary files
+temp/
+.tmp/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Old nested repository
+A_chatbot_model/
